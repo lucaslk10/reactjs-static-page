@@ -1,2 +1,3 @@
-# reactjs-static-page
-Static page in React.js for studying purposes
+# React.js simple static page
+  > for studying purposes
+
