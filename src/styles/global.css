@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  background-color: #23252C;
+}
+
+html {
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.app-wrapper {
+  width: 317px;
+}
+
+.header--photo {
+  height: 317px;
+  background-image: url('../../public/eu.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header--person-info {
+  background-color: white;
+}
+
+.header--person-name, .header--person-role, .header--person-website {
+  margin: 0;
+  text-align: center;
+}
+
+.header--person-name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 20px 0 6px
+}
+
+.header--person-role {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #F47D27;
+  padding: 0 0 9px
+}
+
+.header--person-website {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.main {
+  padding: 25px 35px 31px;
+  background-color: white;
+}
+
+.content--section {
+  padding: 20px 0px;
+}
+
+.content--section-header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2B283A;
+
+}
+
+.footer {
+  background-color: #D5D4D8;
+  border-radius: 0 0 10px 10px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.networks--wrapper {
+  width: 200px;
+}
+
+.networks {
+  display: flex;
+  justify-content: space-between;
+}
